@@ -82,7 +82,7 @@ docker compose up -d
 ```
 
 ## Build progress
-- [ ] Phase 0 — Foundations & repo setup
+- [x] Phase 0 — Foundations & repo setup
 - [ ] Phase 1 — Source system + data generation
 - [ ] Phase 2 — Streaming ingestion (Kafka) + schema mapping
 - [ ] Phase 3 — CDC on device registry (Debezium)

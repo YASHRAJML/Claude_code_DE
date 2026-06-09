@@ -29,11 +29,11 @@ pipeline code, runs it, and explains the design decisions.
 ---
 
 ## Phase 0 — Foundations & Repo Setup
-- [ ] 0.1 Verify tooling (Docker, Python, git) — *run-target laptop needs Docker*
-- [ ] 0.2 Create project folder + `git init` / clone
-- [ ] 0.3 Add `.gitignore` + `README.md`
-- [ ] 0.4 First commit + push to GitHub
-- [ ] 0.5 `docker-compose.yml` skeleton
+- [x] 0.1 Verify tooling (Docker, Python, git) — *run-target laptop needs Docker*
+- [x] 0.2 Create project folder + `git init` / clone
+- [x] 0.3 Add `.gitignore` + `README.md`
+- [x] 0.4 First commit + push to GitHub
+- [x] 0.5 `docker-compose.yml` skeleton
 
 ## Phase 1 — Source System + Data Generation
 - [ ] 1.1 Design the device registry data model (decide which columns change → SCD2)
