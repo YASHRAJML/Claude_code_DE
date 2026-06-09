@@ -1,0 +1,43 @@
+# ===== Secrets & config =====
+.env
+*.env
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== dbt =====
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+.user.yml
+
+# ===== Data files (never commit raw/generated data) =====
+data/
+*.csv
+*.parquet
+*.duckdb
+*.db
+!**/sample/*.csv
+
+# ===== Airflow =====
+airflow/logs/
+airflow/airflow.db
+airflow/standalone_admin_password.txt
+
+# ===== Docker =====
+**/volumes/
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+.vscode/

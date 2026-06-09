@@ -1,0 +1,18 @@
+# IoT Sensor Telemetry Data Platform — service stack.
+# We add services incrementally, one per phase, so every line is understood.
+#
+# Phase 1: source-postgres
+# Phase 2: kafka, (zookeeper or KRaft), kafka-ui
+# Phase 3: debezium connect
+# Phase 4: minio, warehouse-postgres
+# Phase 7: airflow
+# Phase 8: metabase
+
+name: iot-data-platform
+
+services: {}
+  # services will be added here per phase
+
+networks:
+  iot-net:
+    driver: bridge
